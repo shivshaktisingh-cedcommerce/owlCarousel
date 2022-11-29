@@ -1,0 +1,322 @@
+@font-face {
+    font-family: 'Martel-DemiBold';
+    src: url('Martel-DemiBold.eot');
+    src: url('Martel-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Martel-DemiBold.woff2') format('woff2'),
+        url('Martel-DemiBold.woff') format('woff'),
+        url('Martel-DemiBold.ttf') format('truetype'),
+        url('Martel-DemiBold.svg#Martel-DemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Martel-ExtraBold';
+    src: url('Martel-ExtraBold.eot');
+    src: url('Martel-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Martel-ExtraBold.woff2') format('woff2'),
+        url('Martel-ExtraBold.woff') format('woff'),
+        url('Martel-ExtraBold.ttf') format('truetype'),
+        url('Martel-ExtraBold.svg#Martel-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Martel-Regular';
+    src: url('Martel-Regular.eot');
+    src: url('Martel-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Martel-Regular.woff2') format('woff2'),
+        url('Martel-Regular.woff') format('woff'),
+        url('Martel-Regular.ttf') format('truetype'),
+        url('Martel-Regular.svg#Martel-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Martel-Bold';
+    src: url('Martel-Bold.eot');
+    src: url('Martel-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Martel-Bold.woff2') format('woff2'),
+        url('Martel-Bold.woff') format('woff'),
+        url('Martel-Bold.ttf') format('truetype'),
+        url('Martel-Bold.svg#Martel-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Martel-Heavy';
+    src: url('Martel-Heavy.eot');
+    src: url('Martel-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('Martel-Heavy.woff2') format('woff2'),
+        url('Martel-Heavy.woff') format('woff'),
+        url('Martel-Heavy.ttf') format('truetype'),
+        url('Martel-Heavy.svg#Martel-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Martel-UltraLight';
+    src: url('Martel-UltraLight.eot');
+    src: url('Martel-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('Martel-UltraLight.woff2') format('woff2'),
+        url('Martel-UltraLight.woff') format('woff'),
+        url('Martel-UltraLight.ttf') format('truetype'),
+        url('Martel-UltraLight.svg#Martel-UltraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Martel-Light';
+    src: url('Martel-Light.eot');
+    src: url('Martel-Light.eot?#iefix') format('embedded-opentype'),
+        url('Martel-Light.woff2') format('woff2'),
+        url('Martel-Light.woff') format('woff'),
+        url('Martel-Light.ttf') format('truetype'),
+        url('Martel-Light.svg#Martel-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Regular.eot');
+    src: url('OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-Regular.woff2') format('woff2'),
+        url('OpenSans-Regular.woff') format('woff'),
+        url('OpenSans-Regular.ttf') format('truetype'),
+        url('OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-ExtraBold.eot');
+    src: url('OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-ExtraBold.woff2') format('woff2'),
+        url('OpenSans-ExtraBold.woff') format('woff'),
+        url('OpenSans-ExtraBold.ttf') format('truetype'),
+        url('OpenSans-ExtraBold.svg#OpenSans-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Light.eot');
+    src: url('OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-Light.woff2') format('woff2'),
+        url('OpenSans-Light.woff') format('woff'),
+        url('OpenSans-Light.ttf') format('truetype'),
+        url('OpenSans-Light.svg#OpenSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans-Bold';
+    src: url('OpenSans-Bold.eot');
+    src: url('OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-Bold.woff2') format('woff2'),
+        url('OpenSans-Bold.woff') format('woff'),
+        url('OpenSans-Bold.ttf') format('truetype'),
+        url('OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans-Regular_1';
+    src: url('OpenSans-Regular_1.eot');
+    src: url('OpenSans-Regular_1.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-Regular_1.woff2') format('woff2'),
+        url('OpenSans-Regular_1.woff') format('woff'),
+        url('OpenSans-Regular_1.ttf') format('truetype'),
+        url('OpenSans-Regular_1.svg#OpenSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Medium.eot');
+    src: url('OpenSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-Medium.woff2') format('woff2'),
+        url('OpenSans-Medium.woff') format('woff'),
+        url('OpenSans-Medium.ttf') format('truetype'),
+        url('OpenSans-Medium.svg#OpenSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-SemiBold.eot');
+    src: url('OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-SemiBold.woff2') format('woff2'),
+        url('OpenSans-SemiBold.woff') format('woff'),
+        url('OpenSans-SemiBold.ttf') format('truetype'),
+        url('OpenSans-SemiBold.svg#OpenSans-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body{
+    font-family: 'Martel-Light';
+}
+
+.bg-white{
+    background:#FFFFFF;
+}
+
+.bg-alabaster{
+    background:#FAFAFA;
+}
+
+.bg-calypso{
+    background:#295C7A;
+}
+
+.common-padding{
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+.about__mainheading{
+    font-family: 'Martel-ExtraBold' , sans-serif;
+    font-size:40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+}
+
+.about__subheading-problem{
+    font-family: 'Martel-Regular', sans-serif;
+    font-size:14px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.thumbnail-image{
+    width:fit-content;
+}
+
+.text-color-dovegray{
+    color:#737373;
+}
+
+.text-color-ebonyclay{
+    color:#252B42;
+}
+
+.about__mosttrusted-heading{
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    font-family:'Martel-Bold', sans-serif;
+    font-size:40px;
+}
+
+.about__mosttrusted-subheading{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    font-family: 'Martel-Regular', sans-serif;
+}
+
+.testimony__mainheading{
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    font-family: 'Martel-Bold', sans-serif;
+}
+
+.testimony__subheading{
+    letter-spacing: 0.2px;
+    font-family: 'Open Sans-Regular_1', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.testimony__designer{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Open Sans-Bold', sans-serif;
+    letter-spacing: 0.2px;
+}
+
+.testimony__regina{
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Martel-Bold', sans-serif;
+    letter-spacing: 0.2px;
+}
+
+.testimony__desc{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Open Sans-Regular_1', sans-serif;
+    letter-spacing: 0.2px;
+}
+
+.owl-carousel .owl-item img {
+    display:block;
+    width:70%;
+    z-index:1;
+}
+
+.testimony__cover-image-container{
+    position:absolute;
+    top:10px;
+    left:-15px;
+}
+
+.star {
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 0.9em;
+    margin-right: 0.9em;
+    margin-bottom: 1.2em;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0.7em solid #fc0;
+    border-left: 0.3em solid transparent;
+    font-size: 12px;
+  }
+
+  .star:before, .star:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0.6em;
+    left: -1em;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid #fc0;
+    border-left: 1em solid transparent;
+    transform: rotate(-35deg);
+  }
+
+  .star:after {
+    transform: rotate(35deg);
+  }
